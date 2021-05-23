@@ -1,0 +1,13 @@
+        * {
+        margin: 0;
+        padding: 0;
+        header .menu .menulista a {
+            margin-left: 26px;
+            text-decoration: none;
+            font-size: 23px;
+            color: whitesmoke;
+            font-weight: bolder;
+        }
+        header .menu .menulista a:hover {
+            border-bottom: 3px solid #ffffff;
+        }

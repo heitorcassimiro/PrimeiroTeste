@@ -1,0 +1,57 @@
+fazer json/array com infos falsas... que nem no modelo
+
+2 tipos... garçom e decorador
+
+
+
+
+
+
+
+node.js
+
+
+npm
+
+
+npm install express
+
+
+nunjucks
+
+
+onClick="history.go(-1); return false;"
+
+
+onclick="window.history.back()"
+
+const name = [
+	{name: "name",
+	day: day},
+	{name: "name",
+	day: day},
+	{name: "name",
+	day: day}
+]
+
+conts subjects = []
+
+html
+{%for proffy in proffys}
+
+<article class="" >
+<img> {{proffy.avatar}}
+{{proffy.profissao}}
+
+
+{{%for subject in subjects %}}
+<option value="{{loop.index}}">{{subject}}</option>
+{%endfor%}
+
+
+const database = require('sqlite-async')
+
+database.open(__dirname +  '/database.sqlite')
+
+
+3 tabelas user , tomador e prestador. 

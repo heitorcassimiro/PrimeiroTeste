@@ -1,0 +1,124 @@
+main h3{
+  margin-top: 10px;
+  margin-left: 550px;
+  color: rgb(103, 2, 143);
+  font-size: 30px;
+}
+
+.conteudo{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.bloco1{
+box-shadow: 0.3px 0.5px 15px 8px rgb(194, 152, 219);
+  height: 100%;
+  width: 80%;
+  margin-left: 20px;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.bloco1 h2{
+  font-size: 22px;
+  color: rgb(103, 2, 143);
+  font-family: 'Lora', serif;
+}
+
+.bloco1 p{
+  font-size: 18px;
+  color: #B683F9;
+  font-family: 'Bree Serif', serif;
+  padding: 20px;
+}
+
+.bloco2{
+  box-shadow: 0.3px 0.5px 15px 8px rgb(194, 152, 219);
+  height: 100%;
+  width: 80%;
+  margin-left: 20px;
+  margin-right: 25px;
+  border-radius: 7px;
+  padding: 5px;
+  font-family: 'Lora', serif;
+
+}
+
+.bloco2 h2{
+  font-size: 22px;
+  color: rgb(103, 2, 143);
+}
+
+.bloco2 p{
+  font-size: 18px;
+   color: #B683F9;
+   font-family: 'Bree Serif', serif;
+   padding: 20px;
+}
+
+h4{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.icones{
+  display: flex;
+  margin-left: 100px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.whats{
+  margin-right: 40px;
+}
+
+.whats img{
+  width: 45px;
+  margin-left: 23px;
+}
+
+.fone{
+  margin-right: 50px;
+}
+
+.fone img{
+  width: 45px;
+  margin-left: 17px;
+}
+
+.email img{
+  width: 45px;
+  margin-left: 1px;
+}
+
+footer button{
+  cursor: pointer;
+  width: 3%;
+  border-radius: 100px;
+  padding: 8px 5px;
+  margin-left: 20px;
+  background-color: rgb(103, 59, 160);
+  
+  color: #ffffff;
+  font-weight:bolder;
+  font-size: 20px; 
+
+}
+
+footer button{
+margin-top: 150px;
+margin-bottom: 20px;
+
+}
+
+.boxIcons{
+  box-shadow: 0.3px 0.5px 15px 8px rgb(194, 152, 219);
+  height: 30%;
+  width: 40%;
+  margin-left: 100px;
+  border-radius: 7px;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+

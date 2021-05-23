@@ -1,0 +1,51 @@
+* {
+    font-size: 14pt;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #180B3E;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/*main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
+
+.imageTeam {
+    margin-top: 80%;
+    width: 34%;
+    margin: auto;
+    margin-right: 10%;
+}
+
+.sobre-nos {
+    align-items: center;
+    margin: auto;
+}
+
+.sobre-nos .texto {
+    margin-bottom: 50px;
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    font-size: 22px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.sobre-nos h2 {
+    margin-top: 10%;
+}
+
+.sobre-nos .texto {
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 7%;
+}
+
+.texto {
+    text-align: center;
+    margin: auto;
+    font-family: 'Bree Serif', serif;
+}

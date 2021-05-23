@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Handy</title>
+
+    <link rel="stylesheet" href="style/filtro.css">
+    <link rel="stylesheet" href="style/menus.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cormorant+Upright:wght@700&family=Lora:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="sortcut icon" href="image/favicon.ico" type="image/x-icon" />
+
+</head>
+
+<body>
+    <header>
+
+        <section class="menu">
+            <img src="./image/handy_2.png" alt="" srcset="">
+
+            <section class="nav">
+
+                <a href="homePage.html">Página Inicial</a>
+
+                <a href="filtro.html">Buscar prestador</a>
+
+                <a href="sobreNos.html">Quem Somos</a>
+
+                <a href="contato.html">Contato</a>
+
+                <a href="faq.html">FAQ</a>
+
+
+            </section>
+
+            <button>Login</button>
+
+        </section>
+
+    </header>
+
+
+
+    </header>
+
+    <main>
+
+        <div class="filtro">
+            <label for="prof">Profisional</label>
+            <select id="prof">
+          <option value="" selected>Selecione uma opção</option>
+          <option value="garcom">Garçom</option>
+          <option value="Churrasqueiro">Churrasqueiro</option>
+          <option value="confeteiro">Confeteiro</option>
+          <option value="musico">Musico</option>
+          <option value="decorador" >Decorador</option>
+          <option value="cerimonialista" >Cerimonialista</option>
+          <option value="florista" >Florista</option>
+          <option value="segurança" >Segurança</option>
+          <option value="recreador" >Recreador</option>
+          <option value="fotografo" >Fotografo</option>
+          
+
+        </select>
+
+            <label for="estrela">Estrelas</label>
+            <select id="estrela">
+          <option value="" selected>Selecione uma opção</option>
+          <option value="1"> &#11088</option>
+          <option value="2">&#11088 &#11088</option>
+          <option value="3"> &#11088	&#11088	&#11088</option>
+          <option value="4" >	&#11088	&#11088	&#11088	&#11088</option>
+          <option value="5" >	&#11088	&#11088	&#11088	&#11088	&#11088</option>
+        </select>
+
+            <label for="cidades">Cidades</label>
+            <select id="cidades">
+            <option value="" selected>Selecione uma opção</option>
+            <option value="Recife">Recife</option>
+            <option value="Jaboatão">Jaboatão dos Guararapes</option>
+            <option value="Olinda">Olinda</option>
+            <option value="Camaragibe" >Camaragibe</option>
+            <option value="Paulista" >Paulista</option>
+            <option value="Igarassu">Igarassu</option>
+            <option value="Abreu">Abreu e Lima</option>
+            <option value="Caruaru">Caruaru</option>
+            <option value="Vitoria">Vitoria de Santo</option>
+            <option value="Gravata">Gravatá</option>
+        </select>
+
+            <button class="busca" onclick="busca()">BUSCAR</button>
+
+            <p id="naoEncontrou"></p>
+
+
+            <div class="usuarios">
+
+                <div class="user" id="user1">
+                    <p class="name" id="name1"></p>
+                    <p class="idade" id="idade1"></p>
+                    <p class="serviço" id="servico1"></p>
+
+                    <p class="cidAt" id="cidAt1"></p>
+                    <p class="coment" id="coment1"></p>
+
+                </div>
+
+                <div class="user" id="user2">
+                    <p class="name" id="name2">
+                        <p class="idade" id="idade2"></p>
+                        <p class="serviço" id="servico2"></p>
+                    </p>
+                    <p class="cidAt" id="cidAt2"></p>
+                    <p class="coment" id="coment2"></p>
+
+                </div>
+
+                <div class="user" id="user3">
+                    <p class="name" id="name3">
+                        <p class="idade" id="idade3"></p>
+                        <p class="serviço" id="servico3"></p>
+                    </p>
+                    <p class="cidAt" id="cidAt3"></p>
+                    <p class="coment" id="coment3"></p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+    </main>
+
+
+    <script src="filtro.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+#esqueciaSenha {
+  
+    box-align: center;
+    height: 240px;
+    width: 80%;
+    border-radius: 7px;
+    box-shadow: 0.3px 0.5px 15px 8px rgb(194, 152, 219);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin: 150px auto;
+    font-family: 'Lora', serif;
+    
+  }
+  
+  #msg{
+    color: rgb(103, 2, 143);
+    font-family: 'Lora', serif;
+  }
+  
+  
+  h3{
+    margin-top: 10px;
+    color: rgb(103, 2, 143);
+    font-size: 30px;
+  }
+  
+  .boxEsquceuSenha{
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  .boxEsquceuSenha label{
+    font-family: 'Bree Serif', serif;
+    color: #B683F9;
+    font-size: 20px;
+  }
+  
+  
+  
+  .enviar{
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 8px 20px;
+    border: none;
+    background: rgb(116, 3, 161);
+    border-radius: 7px;
+    color: white;
+    font-family: 'Lora', serif;
+    
+  }
+  
+  
+  .enviar:hover{
+      color: white;
+      cursor: pointer;
+      opacity: 0.7;
+  }
+  
+  .email{
+    font-size: 18px;
+    width: 350px;
+  }

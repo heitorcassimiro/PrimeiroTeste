@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Handy</title>
+    <link href="style/login.css" rel="stylesheet" type="text/css" />
+    <link href="style/menu.css" rel="stylesheet" type="text/css" />
+    <link href="style/footer-Btn.css" rel="stylesheet" type="text/css" />
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cormorant+Upright:wght@700&family=Lora:wght@700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+<link rel="sortcut icon" href="image/favicon.ico" type="image/x-icon" />
+
+  </head>
+  <body>
+
+    <header>
+        <section class="logo">
+
+            <img class="imagelogo" src="image/logomao.png" alt="avatar">
+            <h1>HANDY</h1>
+
+        </section>
+
+        <!--MENU-->
+            
+        <section class="menu">
+
+            <ul class="menulista">
+                
+                <a href="homePage.html">Página Inicial</a>
+            
+                <a href="filtro.html">Busca prestador</a>  
+            
+                <a href="sobreNos.html">Quem Somos</a>
+                            
+                <a href="contato.html">Contato</a>
+                            
+                <a href="faq.html">FAQ</a>
+  
+            </ul>
+
+            <button onclick="window.location.href='login.html';" class = "botaologin">Login</button>
+
+            <img class = "imageusuario"src="image/brabo.jpg" alt="avatar usuario" onclick="window.location.href='login.html';">
+            
+        </section>
+
+    </header>
+
+
+    <!--Fim MENU-->
+
+    <main>
+
+      <section class="primeiro">
+
+        <section class="bloco1">
+
+        <div id="boxLogin">
+          <form id="loginForm">
+            <h2 id="loginh2">Login</h2>
+
+            <p>
+            <label for="email"> Email: </label>
+            <input type="email" id="emailLog" name="email" class="email" placeholder="usuario@exemplo.com">
+            </p>
+            <p>
+            <label for="senha"> Senha: </label>
+            <input type="password" id="senhaLog" class="senha" name="senha" minlength=6>
+            </p>
+
+            <p id="incorreto"></p>
+
+            <p>
+            <input type="reset" class = "botaoLimpar" id="botaoLimparLog" value="Limpar">
+
+            
+            <p>
+            <input type="button" value="Entrar" class="entrar" onclick="autenticar()">
+            <button class = "EsqueceuSenha" ><a target="_parent" href="esqSenha.html">Esqueceu a Senha</a></button>
+            </p>
+
+          </form>
+        </div>
+        </section>
+
+        <section class="bloco2">
+        <div id="boxCadastrar">
+          <form id="cadastrarForm">
+            <h2 id="cadastrarh2">Cadastrar</h2>
+
+              <p>
+              <label for="email"> Email: </label>
+              <input type="email" id="emailCad" name="email" class="email" placeholder="usuario@exemplo.com">
+              </p>
+              <p>
+              <label for="senha"> Senha: </label>
+              <input type="password" id="senhaCad" class="senha" name="senha" minlength=6>
+              </p>
+             
+              <p id="conteudo-cad">
+
+              <p>
+                <input type="reset" class = "botaoLimpar2" id="botaoLimparCad" value="Limpar">
+              </p>
+             
+
+                <button class = "entrar"><a class="entrar" target="_parent" href="cadPrestador.html">Prestador</a></button>  
+                <button class = "entrar corEntrar"><a class="entrar" target="_parent" href="cadTomador.html">Tomador</a></button>  
+
+              </p>
+
+          </form>
+        </div>
+      </section>
+      </section>
+
+      <section class="segundo">
+
+       
+
+       <section class="bloco2">
+
+         <div class="gratis">
+
+           <h3>GRÁTIS</h3>
+
+           <p>ANUNCIAR SERVIÇOS</p>
+           <p>FOTOS ILIMITADAS</p>
+
+         </div>
+
+         <div class="premium">
+
+          <h3>PREMIUM</h3>
+
+          <p>MAIOR VISIBILIDADE</p>
+          <p>SEM ANÚNCIOS</p>
+          <p>FOTOS E VÍDEOS ILIMITADAS</p>
+          
+          <div class="preco">
+            <p>R$7,99 P/MÊS</p>
+            <p>R$49,99 P/ANO</p>    
+          </div> 
+
+         </div>
+
+       </section>
+
+      </section>
+
+      <footer>
+        <button onclick="window.history.back()"> < </button>
+      </footer>
+
+    </main>
+
+    
+    <script src="login.js"></script>
+  </body>
+</html>

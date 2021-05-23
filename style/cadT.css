@@ -1,0 +1,267 @@
+.cadastro{
+  font-size: 20px;
+  color: rgb(103, 2, 143);
+  border-radius: 7px;
+  box-shadow: 1px 0.5px 15px 8px rgb(194, 152, 219);
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  height: 480px;
+  margin-top: 2%;
+  padding: 0.8%;
+
+}
+
+.titulo{
+  font-size: 30px;
+  margin: auto;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+
+.cadastro-prest{
+  margin-left: 5%;
+  text-align: left;
+  padding: 0.5%;
+}
+
+.cadastro-prest p label{
+  font-family: 'Bree Serif', serif;
+
+  color: #B683F9;
+}
+
+.nome{
+  padding: 1%;
+
+}
+
+#nome{
+  border: 1px solid #B683F9;
+  margin: auto;
+  margin-bottom: 5px;
+  background-color: #ECECEC;
+  width: 60%;
+  border-radius: 7px;
+  
+}
+
+
+#telefone1{
+  padding: 1%;
+  border: 1px solid #B683F9;
+  margin: auto;
+  background-color: #ECECEC;
+  width: 180px;
+  height: 30px;
+  border-radius: 7px;
+ 
+
+}
+
+#cpf{
+  padding: 1%;
+  border: 1px solid #B683F9;
+  margin: auto;
+  background-color: #ECECEC;
+  width: 180px;
+  height: 30px;
+  border-radius: 7px;
+  
+  
+}
+
+#estado{
+  width: 180px;
+  height: 30px;
+  border-radius: 7px;
+  background-color: rgba(130, 42, 245, 0.178);
+  border: 1px solid #822AF5;
+  color: #822AF5;
+  outline: 0;
+  padding: 0 10px;
+  font: 15px;
+  font-size: 14px;
+}
+
+#genero1{
+  width: 180px;
+  height: 30px;
+  border-radius: 7px;
+  background-color: rgba(130, 42, 245, 0.178);
+  border: 1px solid #822AF5;
+  color: #822AF5;
+  outline: 0;
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.cidadesB{
+  margin-right: 15%;
+}
+
+#cidades2{
+  width: 180px;
+  height: 30px;
+  border-radius: 7px;
+  background-color: rgba(130, 42, 245, 0.178);
+  border: 1px solid #822AF5;
+  color: #822AF5;
+  outline: 0;
+  padding: 0 10px;
+  font: 15px;
+  font-size: 14px;
+}
+
+.generoB{
+  margin-left: 1%;
+}
+
+.generoB label{
+font-family: 'Bree Serif', serif;
+
+color: #B683F9;
+}
+
+.propagandas{
+  margin-left: 0;
+}
+.celularB{
+  margin-right: 15%;
+}
+
+
+#celular{
+  border: 1px solid #B683F9;
+  margin: auto;
+  background-color: #ECECEC;
+  width: 180px;
+  height: 30px;
+  border-radius: 7px;
+  
+
+
+}
+
+.bloco1{
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.bloco1 section label{
+  font-family: 'Bree Serif', serif;
+
+  color: #B683F9;
+}
+
+.bloco2{
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bloco2 section label{
+  font-family: 'Bree Serif', serif;
+
+  color: #B683F9;
+}
+
+
+.bloco3{
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bloco3 section label{
+  font-family: 'Bree Serif', serif;
+
+  color: #B683F9;
+}
+
+
+.foto-genero{
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.bloco-contas{
+  display: flex;
+  justify-content: space-between;
+}
+
+.radioc{
+  width: 300px;
+  padding: 1%;
+  display: flex;
+}
+
+
+.botoes{
+  margin-top: 0px;
+  padding: 1%;
+}
+
+h3{
+  padding: 1%;
+  padding-top: 15px;
+  margin-left: -12px;
+}
+
+.enviar{
+  padding: 1%;
+  cursor: pointer;
+}
+
+.botaoLimpar{
+
+  width: 100px;
+  height: 30px;
+  border-radius: 7px;
+  background-color: rgba(130, 42, 245, 0.178);
+  border: 1px solid #822AF5;
+  color: #822AF5;
+  outline: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  margin-left: 15%;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+}
+
+.botaoLimpar:hover{
+  background-color: #822AF5;
+  color: white;
+}
+
+
+
+#enviar{
+  width: 100px;
+  height: 30px;
+  border-radius: 7px;
+  background-color: rgba(130, 42, 245, 0.178);
+  border: 1px solid #822AF5;
+  color: #822AF5;
+  outline: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+}
+
+#enviar:hover{
+  background-color: #822AF5;
+  color: white;
+}
+
+#concordo{
+  margin-top: 2%;
+  margin-bottom: 1%;
+  
+}

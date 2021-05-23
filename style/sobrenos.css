@@ -1,0 +1,31 @@
+* {
+    font-size: 14pt;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #180B3E;
+    font-family: 'Nunito', sans-serif;
+}
+
+.img1 {
+    margin-left: 38px;
+    margin-top: 7%;
+}
+
+.sb {
+    /** Frase "Sobre Nós **/
+    margin-left: 5%;
+    width: 66%;
+    margin-top: 1%;
+}
+
+.sb h2 {
+    /** Paragrafo abaixo do Bem vindo  **/
+    font-size: 38pt;
+    color: #83B2F9;
+}
+
+.sb p {
+    color: white;
+    font-size: 146t;
+    margin-top: 3%;
+}
